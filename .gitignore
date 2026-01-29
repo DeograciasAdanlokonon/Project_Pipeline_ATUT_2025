@@ -1,0 +1,58 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+.env
+venv/
+.envrc
+
+# Airflow directories (generated automatically)
+airflow.db
+airflow.cfg
+airflow.log
+webserver_config.py
+
+# Local Airflow folders
+logs/
+plugins/__pycache__/
+logs/*
+plugins/logs/*
+.venv/
+tmp/
+
+# SQLite DB (Airflow local mode)
+*.db
+*.db-journal
+
+# DAG runs & metadata
+run-*
+pid
+*.pid
+*.swp
+*.swo
+
+# Docker Airflow folders
+dags/__pycache__/
+dags/*.pyc
+
+# If you use a local data folder
+data/
+*.txt
+*.csv
+*.json
+
+# Docker specific
+*.bak
+docker-compose.override.yml
+.env
+
+# JetBrains / VSCode
+.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
